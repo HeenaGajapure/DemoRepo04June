@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+<listeners>
+<listener class-name="com.utility.ExtentReporterNG"></listener>
+<listener class-name="com.utility.ListenersSetup"></listener>
+</listeners>
+<parameter name="browser" value="edge"></parameter>
+  <test thread-count="5" name="RegressionSuite">
+    <classes>
+      
+      <class name="com.testLayer.BuyScenario"/>
+      <class name="com.testLayer.GetTransactionData"/>
+    </classes>
+  </test> <!-- RegressionSuite -->
+</suite> <!-- RegressionSuite -->
