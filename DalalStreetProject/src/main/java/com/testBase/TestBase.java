@@ -36,7 +36,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		@BeforeClass
 		public void start()
 		{
-			logger = Logger.getLogger("Dalal Street Framework");
+			logger = Logger.getLogger("dalal Street Framework");
 			PropertyConfigurator.configure("Log4j.properties");
 			
 			logger.info("Framework execution started");
